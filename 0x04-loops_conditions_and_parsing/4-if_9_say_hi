@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#this script changes on the 9 iterations
+number=0
+while [ "$number" -lt 10 ]; do
+    if [ $number -eq 9 ]; then
+        echo "Hi"
+    fi
+    echo "Best School"
+    number=$((number + 1))
+done
