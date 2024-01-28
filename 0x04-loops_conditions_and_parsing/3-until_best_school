@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this script uses the until loop for printing
+number=0
+until [ $number -eq 10 ]; do
+    echo "Best School"
+    number=$((number + 1))
+done
