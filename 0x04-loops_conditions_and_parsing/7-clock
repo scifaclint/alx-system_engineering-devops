@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#this scripts display time formats style
+hour=0
+minutes=1
+echo "Hour: $hour"
+while [ "$minutes" -ne 0 ]; do
+    echo "$minutes"
+    if [ "$minutes" -eq 59 ]; then
+        hour=$((hour + 1))
+        echo "Hour: $hour"
+        minutes=0
+        if [ "$hour" -eq 12 ]; then
+            break
+        fi
+    fi
+    minutes=$((minutes + 1))
+done
