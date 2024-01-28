@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#this scripts prints contents of current working dir
+for test in *; do
+    echo "$test"
+done
