@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 #this script does it perfectly 
-puts ARGV[0].scan(/hbt*n/).join
+#it does it as it is
+puts ARGV[0].scan(/hbt+n/).join
